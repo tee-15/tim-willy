@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+   html,
+   body{
+     font-weight: 400,500,700;
+     font-size: 18px;
+     text-rendering: optimizeLegibility;
+     font-family: 'Open Sans', sans-serif;
+     background-color: white;
+     animation: mymove 5s infinite;
+  }
+  @keyframes mymove{
+    from{background-color:  white;}
+    to{background-color: red ;}
+  }
+
+  .btn {
+    text-align: center;
+    color: red;
+    margin-top: 1em;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 50px;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: none;
+}
+
+.uncle {
+    border-radius: 15em;
+    width: 27em;
+}
+.row-text {
+    text-align: center;
+    margin-top: 3em;
+}
+h1.happen {
+    font-size: 50px;
+    border-bottom: 1px solid;
+}
+h3.live {
+    font-size: 41px;
+}
+span.note {
+    color: slateblue;
+    font-size: 95px;
+}
+span.number {
+    color: slateblue;
+    font-size: 97px;
+}
+h1.birthday {
+    font-size: 29px;
+    text-shadow: 2px 2px red;
+}
+p.save {
+    font-size: 25px;
+    margin-top: 1em;
+}
+.click {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 50px;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    border: none;
+    margin-top: 1em;
+}
+.myname {
+    text-align: center;
+    font-size: 24px;
+    color: blueviolet;
+    margin-top: 1em;
+}
+.head {
+    text-align: center;
+}
+
+
